@@ -1,5 +1,5 @@
-from asignatura import Asignatura
-from asignatura import Asignatura
+from classroom.asignatura import Asignatura
+from classroom.asignatura import Asignatura
 
 
 class Grupo:
@@ -30,7 +30,6 @@ class Grupo:
             self.listadoAlumnos = lista
             
             
-   
 
     @ classmethod
     def asignarNombre(cls, nombre="Grado 6"):
