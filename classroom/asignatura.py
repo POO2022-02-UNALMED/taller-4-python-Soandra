@@ -5,5 +5,5 @@ class Asignatura:
         self._salon = salon
 
     def __str__(self):
-        string = self._nombre + " "  + self._salon
+        string = f'{self._nombre} {self._salon}'
         return string
